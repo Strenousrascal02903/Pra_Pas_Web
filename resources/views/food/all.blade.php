@@ -6,7 +6,7 @@ $no = 1;
 
 @section('content')
   <h2>Food</h2>
-  <table class="table">
+  <table class="table table-striped">
     <thead>
       <tr>
         <th scope="col">No</th>
