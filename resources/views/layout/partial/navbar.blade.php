@@ -10,10 +10,10 @@
                     <a class="nav-link text-light " aria-current="page" href="/home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="/foods">Food</a>
+                    <a class="nav-link text-light" href="/foods">Makanan</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="/drinks">Drink</a>
+                    <a class="nav-link text-light" href="/drinks">Minuman</a>
                 </li>
       </ul>
     </div>
