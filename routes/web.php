@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FoodController;
 use App\Http\Controllers\DrinkController;
+use App\Http\Controllers\TableController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,7 +16,7 @@ use App\Http\Controllers\DrinkController;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('home' , ['nama' => 'HomePage', 'tittle' => 'HomePage']);
 });
 
 
@@ -29,3 +30,7 @@ Route::get('/foods', [FoodController::class, 'index'])->name('food.index');
 Route::get('/drink/detail/{drink}', [DrinkController::class, 'show'])->name('drink.show');
 
 Route::get('/drinks', [DrinkController::class, 'index'])->name('drink.index');
+
+Route::get('/table/detail/{table}', [TableController::class, 'show'])->name('table.show');
+
+Route::get('/tables', [TableController::class, 'index'])->name('table.index');
