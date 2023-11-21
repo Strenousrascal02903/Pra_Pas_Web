@@ -1,7 +1,7 @@
 @extends("layout.main")
 
 @section('content')
-  <h1>Detail Food</h1>
+  <h1>Detail Makanan</h1>
 
   <div class="mb-3">
     <label for="image" class="form-label"></label>
