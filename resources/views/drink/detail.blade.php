@@ -17,14 +17,7 @@
       <label for="deskripsi" class="form-label">Deskripsi</label>
       <input type="text" class="form-control" id="deskripsi" value="{{ $drink->deskripsi }}" disabled>
     </div>
-    <div class="mb-3">
-      <label for="bahan" class="form-label">Bahan</label>
-      <ul>
-      @foreach(json_decode($drink->bahan) as $ingredient)
-            <li>{{ $ingredient }}</li>
-        @endforeach
-      </ul>
-    </div>
+   
     <div class="mb-3">
       <label for="tgl_produksi" class="form-label">Tanggal Produksi</label>
       <input type="text" class="form-control" id="tgl_produksi" value="{{ $drink->tgl_produksi }}" disabled>

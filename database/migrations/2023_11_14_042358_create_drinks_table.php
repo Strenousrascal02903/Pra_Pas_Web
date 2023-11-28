@@ -19,7 +19,7 @@ return new class extends Migration
             $table->unsignedInteger('harga');
             $table->date('tgl_produksi');
             $table->date('tgl_kadaluwarsa');
-            $table->json('bahan'); // Using json instead of text for bahan
+           
             $table->unsignedInteger('kalori');
             $table->unsignedInteger('protein');
             $table->timestamps();
